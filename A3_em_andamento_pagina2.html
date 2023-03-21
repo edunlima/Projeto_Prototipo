@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function myfunction(){
+            let mm = document.getElementById("mm").value;
+            let raio = mm/2;
+            let torque = 25600;
+            let dividendo = torque * raio;
+            let pi = 3.1416
+            let dividendo2 = pi * (raio ** 4);
+            let expoente = dividendo2 / 2;
+            let resultado = (dividendo / expoente) * 100;
+
+            document.getElementById("resultado").innerHTML = resultado.toFixed(3) + " . 10-5kPa"
+        }
+    </script>
+<title> Calculos </title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="A3_CSS.css" />
+</head>
+<header> 
+<h1> PROJETO A3 <br>
+ Tensões nas Engrenagens de Bicicleta </h1>
+ <ul id="menu">
+<button id = "menu2"> <a href = "C:\Users\eduardo.lima\Desktop\coisas faculdade\A3_em_andamento.html">Home</a></li>
+<button id = "menu2"> <a href = "C:\Users\eduardo.lima\Desktop\coisas faculdade\A3_em_andamento_pagina2.html">Cálculos</a></li>
+</ul>
+</header>
+<body>
+<main id = "contas">
+<form oninput="myfunction()">
+<label> Insira o valor em mm: </label> <br>
+<input type="text" name="a" id="mm" /> <br>
+<output name="result" id="resultado"></output>
+</form>
+
+</main>
+<footer> 
+<ul id = "integrantes"> 
+<li>Projeto desenvolvido por: </li>
+<li> Bruno Teixeira Lima </li>
+<li> Eduardo Nascimento Lima </li>
+<li> Gabriel Henrique de Godoi Augusto </li>
+<li> Henrique Müller Caroci Silva </li>
+<li> Leandro de Moraes Geisel </li>
+<li> Mike Borges dos Santos </li>
+<li> Vitor Araújo Andrade </li>
+</ul>
+<img id = "foto_rodape" src = "C:\Users\gabri\Downloads\a3\logo1.png">
+</footer>
+</body>
