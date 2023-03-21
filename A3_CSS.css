@@ -1,0 +1,175 @@
+* {
+
+margin: 0;
+padding: 0;
+font: normal bold 20px calibri;
+}
+
+header {
+
+background: rgb(168, 189, 0);
+
+}
+
+h1 {
+
+font-size: 30px;
+position: relative;
+right: 410px;
+color: rgb(47, 59, 137);
+
+}
+
+footer {
+
+background: rgb(47, 59, 137);
+color: white;
+ 
+}
+
+header, footer {
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 25vh;
+width: 100%;
+
+}
+
+#menu {
+
+list-style-type: none;
+position: relative;
+left: 400px;
+
+}
+
+a {
+
+color: black;
+font-size: 25px;
+text-decoration: none;
+
+}
+
+#menu2 {
+
+border-radius: 5px;
+display: inline;
+margin-left: 20px;
+padding: 5px;
+
+}
+
+#menu2:hover {
+
+background: rgb(47, 59, 137);
+
+}
+
+main {
+
+height: 100vh;
+display: flex;
+align-content: space-around;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+#contas {
+
+text-align: center;
+height: 75vh;
+
+}
+
+h2 {
+
+margin: auto;
+text-align: center;
+width: 80%;
+letter-spacing: 3px;
+color: rgb(102, 102, 102);
+font-size: 30px;
+}
+
+#integrantes {
+
+list-style-type: none;
+position: relative;
+right: 400px;
+
+}
+
+li {
+
+font-size: 15px;
+}
+
+#foto_rodape {
+
+position: relative;
+left: 350px;
+width: 13%;
+
+}
+
+section {
+position: relative;
+height: 44vh;
+background-image: linear-gradient(to bottom, rgba(168, 189, 0,0.6), rgba(47, 59, 137,0.6));
+width:100%;
+top: 700px;
+}
+
+h3 {
+
+position: relative;
+top: 200px;
+text-align: center;
+right: 250px;
+width: 90%;
+font-size: 24px;
+
+
+}
+
+input,label,output {
+
+position: relative;
+font-size: 32px;
+
+}
+
+#foto_secao {
+
+width: 40%;
+}
+
+h4 {
+
+position: relative;
+bottom: 400px;
+text-align: center;
+letter-spacing: 3px;
+color: rgb(102, 102, 102);
+font-size: 30px;
+width: 50%;
+margin: auto;
+
+}
+
+.p1 {
+
+width: 30%;
+display: flex;
+border: solid 2px rgba(168, 189, 0,0.6);
+height: 350px;
+padding: 30px 0;
+float: left;
+border-radius: 10px;
+margin: 30px 0;
+align-items: center;
+}
+
